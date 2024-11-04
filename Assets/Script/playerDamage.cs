@@ -69,10 +69,13 @@ public class playerDamage : MonoBehaviour
         //Se necesitan poner los respawn tanto en mapa como en la lista
         if (other.CompareTag("Respawn"))
         {
+            audioManager.PlayEfectos(audioManager.respawn);
+
              for (int i = 0; i < respawnPoints.Length; i++)
             {
                 if (other.transform == respawnPoints[i])
                 {
+                    Debug.Log("Punto de respawn actualizado");
                     respawnPointActual = respawnPoints[i];
                     break;
                 }
@@ -81,7 +84,8 @@ public class playerDamage : MonoBehaviour
         //Funciona con poner el gameobject con el tag caida
         else if (other.CompareTag("Caida"))
         {
-           Invoke("ReiniciarPosicion",0.1f);  //Se supone que demora 0.1s en activarse
+            Debug.Log("Jugador cayó, reiniciando posición...");
+           Invoke("ReiniciarPosicion",0.2f);  //Se supone que demora 0.1s en activarse
         }
         //ambos objetos en prefab
     }
@@ -93,6 +97,7 @@ public class playerDamage : MonoBehaviour
         transform.position = respawnPointActual.position;
         VidaActual = vidaInicial;
         fisicas.bodyType = RigidbodyType2D.Dynamic;
+        Debug.Log("Posición del jugador reiniciada al punto de respawn");
     }
     private void Update()
         {
