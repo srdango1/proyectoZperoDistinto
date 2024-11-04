@@ -8952,7 +8952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8a86897da8324e9c163921d7b3400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VidaPlayer: {fileID: 2028007848}
+  VidaPlayer: {fileID: 0}
   vidaTotal: {fileID: 392296733}
   vidaTotalActual: {fileID: 956089757}
 --- !u!1 &700770921
@@ -12831,11 +12831,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9b29abd19e0f5445b5636bf36de55a7, type: 3}
---- !u!4 &1456584110 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3553395108497760404, guid: db61e9656fe7a0c4d88100c417a886bd, type: 3}
-  m_PrefabInstance: {fileID: 2698879653678122759}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1463183722
 GameObject:
   m_ObjectHideFlags: 0
@@ -35016,11 +35011,11 @@ GameObject:
   - component: {fileID: 2028007846}
   - component: {fileID: 2028007845}
   - component: {fileID: 2028007843}
-  - component: {fileID: 2028007848}
   - component: {fileID: 2028007850}
   - component: {fileID: 2028007852}
   - component: {fileID: 2028007853}
   - component: {fileID: 2028007854}
+  - component: {fileID: 2028007855}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -35146,23 +35141,6 @@ Transform:
   - {fileID: 399058991}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2028007848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028007842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1ee87e85758d3e409b59e60cf0a6684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vidaInicial: 30
-  fisicas: {fileID: 0}
-  respawnPoints:
-  - {fileID: 1456584110}
-  fuerzaRebote: 10
 --- !u!114 &2028007850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35207,7 +35185,7 @@ MonoBehaviour:
   "da\xF1oGolpe": 20
   tiempoEntreAtaques: 1
   tiempoSiguienteAtaque: 0
-  distanciaGolpe: 1
+  distanciaGolpe: 2
 --- !u!70 &2028007854
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -35243,6 +35221,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0.026990423, y: -0.014585146}
   m_Size: {x: 0.8951394, y: 2.5136583}
   m_Direction: 0
+--- !u!114 &2028007855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028007842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1ee87e85758d3e409b59e60cf0a6684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaInicial: 30
+  fisicas: {fileID: 0}
+  respawnPoints: []
+  fuerzaRebote: 10
 --- !u!1 &2059472967
 GameObject:
   m_ObjectHideFlags: 0

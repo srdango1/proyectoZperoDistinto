@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7452308812362448190}
   - component: {fileID: 4799452273391677132}
   - component: {fileID: 660555935744752800}
-  - component: {fileID: 1715127703377734941}
-  - component: {fileID: 7076626198668894891}
   - component: {fileID: 4569698673514183452}
+  - component: {fileID: 5001053831425984563}
+  - component: {fileID: 9145992312487591581}
   m_Layer: 0
   m_Name: esqueleto
   m_TagString: Enemigo
@@ -145,36 +145,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1715127703377734941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5852190145423885113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 122ca19cef874e9409904a63753a8e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puntos:
-  - {fileID: 0}
-  - {fileID: 0}
-  velocidad: 2
---- !u!114 &7076626198668894891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5852190145423885113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be6b58975ba3edc41b26bf68d8fb8707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 100
-  fisicas: {fileID: 0}
 --- !u!50 &4569698673514183452
 Rigidbody2D:
   serializedVersion: 4
@@ -202,3 +172,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5001053831425984563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5852190145423885113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122ca19cef874e9409904a63753a8e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: []
+  velocidad: 0
+--- !u!114 &9145992312487591581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5852190145423885113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6b58975ba3edc41b26bf68d8fb8707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 0

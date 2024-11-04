@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 9053967398567010043}
   - component: {fileID: 5348639098600238286}
   - component: {fileID: 6654092926768457026}
-  - component: {fileID: 2254100630721898055}
+  - component: {fileID: 4609586223461099998}
+  - component: {fileID: 982140247499675673}
   m_Layer: 0
   m_Name: slime medio
   m_TagString: Untagged
@@ -189,7 +190,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2254100630721898055
+--- !u!114 &4609586223461099998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7771777274183806857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6b58975ba3edc41b26bf68d8fb8707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 0
+--- !u!114 &982140247499675673
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,7 +215,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ba78780d321f047a421eb9e9a16165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntos:
-  - {fileID: 0}
-  - {fileID: 0}
-  velocidad: 2
+  puntos: []
+  velocidad: 0

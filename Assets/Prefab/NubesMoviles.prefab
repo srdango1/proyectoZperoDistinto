@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2041223277994333240}
   - component: {fileID: 5989376386662312073}
   - component: {fileID: 3620923248079222118}
-  - component: {fileID: 2684297863865865074}
-  - component: {fileID: 5095997850886098458}
+  - component: {fileID: 8524296593420749725}
+  - component: {fileID: 3752204446324500283}
   m_Layer: 0
   m_Name: NubesMoviles
   m_TagString: Ground
@@ -132,23 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.7744904, y: 0.18520188}
   m_EdgeRadius: 0
---- !u!114 &2684297863865865074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3884849591412585143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 340a3bc1571133d408246eaa3bfe7951, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puntos:
-  - {fileID: 0}
-  - {fileID: 0}
-  velocidad: 3
---- !u!114 &5095997850886098458
+--- !u!114 &8524296593420749725
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,3 +144,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c32e153051a9e4f980c9c24a94b1af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3752204446324500283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3884849591412585143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340a3bc1571133d408246eaa3bfe7951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: []
+  velocidad: 0

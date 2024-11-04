@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8733129839021321631}
   - component: {fileID: 89911509704000491}
   - component: {fileID: 5081144331063693955}
-  - component: {fileID: 7187710399862523905}
+  - component: {fileID: 7372657751276935289}
+  - component: {fileID: 7464740620786706966}
   m_Layer: 0
   m_Name: tilesets v5 (1)_0
   m_TagString: Untagged
@@ -131,7 +132,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.9375}
   m_EdgeRadius: 0
---- !u!114 &7187710399862523905
+--- !u!114 &7372657751276935289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7997546365901426376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c32e153051a9e4f980c9c24a94b1af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7464740620786706966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +156,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 340a3bc1571133d408246eaa3bfe7951, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntos:
-  - {fileID: 0}
-  - {fileID: 0}
-  velocidad: 3
+  puntos: []
+  velocidad: 0
