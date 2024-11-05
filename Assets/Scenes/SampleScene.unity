@@ -1701,6 +1701,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &224024129 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3553395108497760404, guid: db61e9656fe7a0c4d88100c417a886bd, type: 3}
+  m_PrefabInstance: {fileID: 1851757166}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &243603609
 GameObject:
   m_ObjectHideFlags: 0
@@ -16930,6 +16935,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4578940988853386086, guid: 25cc1676de1f11a49ada4398ba74e596, type: 3}
   m_PrefabInstance: {fileID: 1630996893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1638480682 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3553395108497760404, guid: db61e9656fe7a0c4d88100c417a886bd, type: 3}
+  m_PrefabInstance: {fileID: 2698879653678122759}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1654315957 stripped
 Transform:
@@ -34602,7 +34612,8 @@ MonoBehaviour:
   vidaInicial: 30
   fisicas: {fileID: 0}
   respawnPoints:
-  - {fileID: 0}
+  - {fileID: 1638480682}
+  - {fileID: 224024129}
   fuerzaRebote: 10
 --- !u!1 &2059472967
 GameObject:
