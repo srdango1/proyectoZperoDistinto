@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1497730148958951872}
   - component: {fileID: 5091137723913865290}
   - component: {fileID: 6372072473833706696}
+  - component: {fileID: -5563718405605228503}
+  - component: {fileID: -235522176346113247}
   m_Layer: 0
   m_Name: corazon
   m_TagString: corazon
@@ -71,9 +73,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 2122721495
+  m_SortingLayer: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1079311951, guid: 0dc37a244b2ccbd489704538703b9f1b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -106,3 +108,85 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!60 &-5563718405605228503
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624769016690033062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6785714, y: 0.64285713}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.051197052, y: 0.32046795}
+      - {x: 0.04834366, y: 0.21578026}
+      - {x: -0.01612091, y: 0.21912766}
+      - {x: -0.014209747, y: 0.32530499}
+      - {x: -0.23723984, y: 0.3207016}
+      - {x: -0.2383641, y: 0.2166999}
+      - {x: -0.344059, y: 0.21521091}
+      - {x: -0.34313965, y: -0.08032894}
+      - {x: -0.23455703, y: -0.07672119}
+      - {x: -0.23506927, y: -0.14213657}
+      - {x: -0.13024631, y: -0.15005332}
+      - {x: -0.12569809, y: -0.2551689}
+      - {x: -0.02029419, y: -0.25333595}
+      - {x: -0.019939423, y: -0.31692314}
+      - {x: 0.062213898, y: -0.31707382}
+      - {x: 0.062671125, y: -0.24716693}
+      - {x: 0.16360092, y: -0.25557137}
+      - {x: 0.16600692, y: -0.14383209}
+      - {x: 0.23314667, y: -0.14476585}
+      - {x: 0.23504639, y: -0.07615185}
+      - {x: 0.34032822, y: -0.07822704}
+      - {x: 0.34499633, y: 0.21906772}
+      - {x: 0.23546219, y: 0.22355747}
+      - {x: 0.23692486, y: 0.3195241}
+  m_UseDelaunayMesh: 0
+--- !u!114 &-235522176346113247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624769016690033062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5676760b8d9aa5488784bbf073fad2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valorVida: 10
