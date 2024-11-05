@@ -56,6 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Proyecto Z.sln",
+    "dotnet.defaultSolution": "proyectoZperoDistinto.sln",
     "FSharp.suggestGitignore": false
 }

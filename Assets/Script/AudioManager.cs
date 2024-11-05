@@ -23,6 +23,8 @@ public class AudioManager : MonoBehaviour
    public AudioClip aterrizar;
    public AudioClip golpePlayer;
    public AudioClip muertePlayer;
+   public AudioClip caidaPlayer;
+   public AudioClip respawn;
 
 
    
