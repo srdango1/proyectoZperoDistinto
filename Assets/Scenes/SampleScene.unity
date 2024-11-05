@@ -8952,7 +8952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8a86897da8324e9c163921d7b3400, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VidaPlayer: {fileID: 0}
+  VidaPlayer: {fileID: 2028007855}
   vidaTotal: {fileID: 392296733}
   vidaTotalActual: {fileID: 956089757}
 --- !u!1 &700770921
@@ -35132,7 +35132,7 @@ Transform:
   m_GameObject: {fileID: 2028007842}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 138.73, y: 31.68, z: 0.025897618}
+  m_LocalPosition: {x: 92.2, y: -3.16, z: 0.025897618}
   m_LocalScale: {x: 0.59247726, y: 0.5480957, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35235,7 +35235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaInicial: 30
   fisicas: {fileID: 0}
-  respawnPoints: []
+  respawnPoints:
+  - {fileID: 0}
   fuerzaRebote: 10
 --- !u!1 &2059472967
 GameObject:
