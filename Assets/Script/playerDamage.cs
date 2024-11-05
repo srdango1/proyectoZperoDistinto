@@ -92,6 +92,12 @@ public class playerDamage : MonoBehaviour
         VidaActual = vidaInicial;
         fisicas.bodyType = RigidbodyType2D.Dynamic;
     }
+
+    public void masVida(float _value)
+    {
+        VidaActual =  Mathf.Clamp(VidaActual + _value,0, vidaInicial);
+
+    }
     private void Update()
         {
            if(Input.GetKeyDown(KeyCode.E)){
