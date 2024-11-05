@@ -21,7 +21,7 @@ TagManager:
   - Water
   - UI
   - lava
-  - 
+  - plataformas low
   - 
   - 
   - 
@@ -67,4 +67,10 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 2122721495
+    locked: 0
+  - name: low
+    uniqueID: 4271598837
+    locked: 0
+  - name: plataformas low
+    uniqueID: 1176124219
     locked: 0
