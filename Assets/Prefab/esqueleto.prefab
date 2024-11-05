@@ -184,8 +184,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122ca19cef874e9409904a63753a8e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntos: []
-  velocidad: 0
+  puntos:
+  - {fileID: 0}
+  - {fileID: 0}
+  velocidad: 2
 --- !u!114 &9145992312487591581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,4 +200,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be6b58975ba3edc41b26bf68d8fb8707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 0
+  vida: 50
