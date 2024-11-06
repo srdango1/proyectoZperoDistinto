@@ -8,7 +8,7 @@ public class playerhealing : MonoBehaviour
    private void OnTriggerEnter2D(Collider2D other){
     if (other.tag == "Player"){
         other.GetComponent<playerDamage>().masVida(valorVida);
-        gameObject.SetActive(false);
+         Destroy(gameObject);
     }
    }
 }
