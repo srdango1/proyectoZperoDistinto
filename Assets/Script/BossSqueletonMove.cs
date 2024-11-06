@@ -30,9 +30,9 @@ public class BossSqueletonMove : MonoBehaviour
 
     private void Girar(){
         if(transform.position.x < puntos[puntoActual].transform.position.x){
-            spriteRenderer.flipX = true;
-        }else{
             spriteRenderer.flipX = false;
+        }else{
+            spriteRenderer.flipX = true;
         }
     }
 }

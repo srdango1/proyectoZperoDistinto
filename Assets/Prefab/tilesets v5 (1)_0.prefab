@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7464740620786706966}
   m_Layer: 0
   m_Name: tilesets v5 (1)_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

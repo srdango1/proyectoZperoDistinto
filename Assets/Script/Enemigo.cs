@@ -5,13 +5,16 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     [SerializeField] private float vida;
+    
     private Animator animator;
     AudioManager audioManager;
+    private Collider2D collider2D;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        collider2D = GetComponent<Collider2D>();
     }
     public void TomarDaño(float daño)
     {
@@ -27,5 +30,7 @@ public class Enemigo : MonoBehaviour
     private void Muerte()
     {
         animator.SetTrigger("Muerte");
+        collider2D.enabled = false;
+
     }
 }
