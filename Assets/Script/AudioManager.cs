@@ -79,8 +79,12 @@ public class AudioManager : MonoBehaviour
                 return 0;
             case "golem":
                 return 1;
-            case "slime medio":
+            case "slime":
                 return 2;
+            case "escorpion":
+                return 3;
+            case "boss":
+                return 4;
             default: 
                 return -1;
             
